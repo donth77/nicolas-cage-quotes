@@ -1,6 +1,8 @@
 "use strict";
 
 const express = require("express");
+const bodyParser = require("body-parser");
+const boolParser = require("express-query-boolean");
 const {
   getRandomQuotes,
   getRandomQuotesForYear
@@ -9,6 +11,9 @@ const schema = require("./schema.json");
 
 const app = express();
 const port = process.env.PORT || 3000;
+
+app.use(bodyParser.json());
+app.use(boolParser());
 
 const dateFormatter = new Intl.DateTimeFormat("en-US", {
   year: "numeric",
@@ -28,11 +33,21 @@ app.all("*", (req, res, next) => {
 app.get("/quotes/:num?", (req, res) => {
   if (req.query.year && !req.query.movie) {
     res.send(
-      getRandomQuotesForYear(parseInt(req.params.num, 10) || 1, req.query.year)
+      getRandomQuotesForYear(
+        parseInt(req.params.num, 10) || 1,
+        req.query.year,
+        req.query.info
+      )
     );
     return;
   }
-  res.send(getRandomQuotes(parseInt(req.params.num, 10) || 1, req.query.movie));
+  res.send(
+    getRandomQuotes(
+      parseInt(req.params.num, 10) || 1,
+      req.query.movie,
+      req.query.info
+    )
+  );
 });
 
 app.get("/schema", (req, res) => {
