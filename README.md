@@ -38,3 +38,16 @@ Returns an array with quotes from a specific movie e.g. `GET /quotes?movie=face-
     "I want to take his face… off."
 ]
 ```
+
+
+### `GET /quotes?year=<year>`
+
+Returns an array with quotes from a specific year e.g. `GET /quotes?year=2011`
+
+```json
+[
+    "Merry Christmas, YOU ASSHOLES!",
+    "I never disrobe before gunplay.",
+    "In your hands they go back to being nothing but rocks."
+]
+```

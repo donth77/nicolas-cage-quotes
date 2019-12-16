@@ -1,6 +1,5 @@
 "use strict";
-
-module.exports = {
+const movies = {
     "8mm": {
         "title": "8MM",
         "year": "1999",
@@ -682,4 +681,77 @@ module.exports = {
             "I wanna shake you naked and eat you alive…"
         ]
     }
+}
+
+const years = {
+  "1981": ["the-best-of-times"],
+  "1982": ["fast-times-at-ridgemont-high"],
+  "1983": ["rumble-fish", "valley-girl"],
+  "1984": ["birdy", "racing-with-the-moon", "the-cotton-club"],
+  "1986": ["peggy-sue-got-married", "the-boy-in-blue"],
+  "1987": ["moonstruck", "raising-arizona"],
+  "1988": ["never-on-tuesday", "vampires-kiss"],
+  "1989": ["time-to-kill"],
+  "1990": ["fire-birds", "wild-at-heart"],
+  "1991": ["zandalee"],
+  "1992": ["honeymoon-in-vegas"],
+  "1993": ["amos-andrew", "deadfall", "red-rock-west"],
+  "1994": ["guarding-tess", "it-could-happen-to-you", "trapped-in-paradise"],
+  "1995": ["kiss-of-death", "leaving-las-vegas"],
+  "1996": ["the-rock"],
+  "1997": ["con-air", "face-off"],
+  "1998": ["city-of-angels"],
+  "1999": ["8mm", "bringing-out-the-dead", "snake-eyes"],
+  "2000": ["gone-in-sixty-seconds", "the-family-man"],
+  "2001": ["captain-correllis-mandolin", "christmas-carol-the-movie"],
+  "2002": ["adaptation", "windtalkers"],
+  "2003": ["matchstick-men"],
+  "2004": ["national-treasure"],
+  "2005": ["lord-of-war", "the-weather-man"],
+  "2006": ["the-ant-bully", "the-wicker-man", "world-trade-center"],
+  "2007": [
+    "ghost-rider",
+    "grindhouse",
+    "national-treasure-book-of-secrets",
+    "next"
+  ],
+  "2008": ["bangkok-dangerous"],
+  "2009": [
+    "astro-boy",
+    "g-force",
+    "knowing",
+    "the-bad-lieutenant-port-of-call-new-orleans"
+  ],
+  "2010": ["kick-ass", "the-sorcerers-apprentice"],
+  "2011": [
+    "drive-angry",
+    "ghost-rider-spirit-of-vengeance",
+    "season-of-the-witch",
+    "seeking-justice",
+    "trespass"
+  ],
+  "2012": ["stolen"],
+  "2013": ["the-croods", "the-frozen-ground"],
+  "2014": ["dying-of-the-light", "joe", "left-behind", "outcast", "rage"],
+  "2015": ["pay-the-ghost", "the-runner"],
+  "2016": ["army-of-one", "dog-eat-dog", "the-trust"],
+  "2017": ["arsenal", "inconceivable", "mom-and-dad"],
+  "2018": [
+    "between-worlds",
+    "mandy",
+    "spider-man-into-the-spider-verse",
+    "teen-titans-go-to-the-movies"
+  ],
+  "2019": [
+    "a-score-to-settle",
+    "color-out-of-space",
+    "grand-isle",
+    "primal",
+    "running-with-the-devil"
+  ]
+};
+
+module.exports = {
+    movies,
+    years
 }
