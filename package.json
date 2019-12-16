@@ -1,0 +1,28 @@
+{
+  "name": "nicolas-cage-quotes",
+  "version": "1.0.0",
+  "description": "An API for retrieving Nicolas Cage quotes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/donth77/nicolas-cage-quotes"
+  },
+  "keywords": [
+    "nicolas",
+    "cage",
+    "quotes"
+  ],
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/donth77/nicolas-cage-quotes/issues"
+  },
+  "homepage": "https://github.com/donth77/nicolas-cage-quotes",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.11.0"
+  },
+  "engines": {
+    "node": "8.x.x"
+  }
+}
