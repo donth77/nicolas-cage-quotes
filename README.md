@@ -28,3 +28,13 @@ Returns an array with `<count>` quotes e.g. `GET /quotes/2`
     "OH, NO! NOT THE BEES! NOT THE BEES!"
 ]
 ```
+
+### `GET /quotes?movie=<movieID>`
+
+Returns an array with quotes from a specific movie e.g. `GET /quotes?movie=face-off`
+
+```json
+[
+    "I want to take his face… off."
+]
+```

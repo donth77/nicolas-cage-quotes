@@ -23,7 +23,7 @@ app.all("*", (req, res, next) => {
 });
 
 app.get("/quotes/:num?", (req, res) => {
-    res.send(getRandomQuotes(parseInt(req.params.num, 10) || 1));
+    res.send(getRandomQuotes(parseInt(req.params.num, 10) || 1, req.query.movie));
 });
 
 app.get("/schema", (req, res) => {
