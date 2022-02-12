@@ -253,6 +253,13 @@ const movies = {
             "I told you I'd share my ticket. I never planned on sharing my heart. Maybe I could get lucky twice today."
         ]
     },
+    "jiu-jitsu": {
+        "title": "Jiu Jitsu",
+        "year": "2020",
+        "quotes": [
+            "I can fly too."
+        ]
+    },
     "joe": {
         "title": "Joe",
         "year": "2014",
@@ -267,6 +274,13 @@ const movies = {
         "quotes": [
             "Oh, child… You always knock me for a loop!",
             "Tool up, honey bunny. It's time to get bad guys."
+        ]
+    },
+    "kill-chain": {
+        "title": "Kill Chain",
+        "year": "2019",
+        "quotes": [
+            "I'm not looking to get SHOT here."
         ]
     },
     "kiss-of-death": {
@@ -393,11 +407,29 @@ const movies = {
             "Yeah, girls mature faster than guys."
         ]
     },
+    "pig": {
+        "title": "Pig",
+        "year": "2021",
+        "quotes": [
+            "We don't get a lot of things to really care about.",
+            "Fuck Seattle.",
+            "You should use stale bread for french toast."
+        ]
+    },
     "primal": {
         "title": "Primal",
         "year": "2019",
         "quotes": [
             "You kill my cat? I'll blow your head off."
+        ]
+    },
+    "prisoners-of-the-ghostland": {
+        "title": "Prisoners of the Ghostland",
+        "year": "2021",
+        "quotes": [
+            "IMPOSSIBLE? HA!",
+            "If you told me three days ago I'd be standing here with one arm and one…TESTICLEEEE trying to reason with you BITCHES!",
+            "Samurai Town is gonna be a beautiful place one day."
         ]
     },
     "racing-with-the-moon": {
@@ -540,6 +572,13 @@ const movies = {
             "Release the baby!"
         ]
     },
+    "the-croods-a-new-age": {
+        "title": "The Croods: A New Age",
+        "year": "2020",
+        "quotes": [
+            "Never apologize for an effective kill circle.",
+        ]
+    },
     "the-family-man": {
         "title": "The Family Man",
         "year": "2000",
@@ -660,6 +699,14 @@ const movies = {
             "Did I ever tell ya that this here jacket represents a symbol of my individuality, and my belief in personal freedom?"
         ]
     },
+    "willys-wonderland":  {
+        "title": "Willy's Wonderland",
+        "year": "2021",
+        "quotes": [
+            "…",
+            "*nods*",
+        ]
+    },
     "windtalkers": {
         "title": "Windtalkers",
         "year": "2002",
@@ -747,8 +794,18 @@ const years = {
     "color-out-of-space",
     "grand-isle",
     "primal",
-    "running-with-the-devil"
-  ]
+    "running-with-the-devil",
+    "kill-chain",
+  ],
+  "2020": [
+      "jiu-jitsu",
+      "the-croods-a-new-age",
+  ],
+  "2021": [
+    "prisoners-of-the-ghostland",
+    "willys-wonderland",
+    "pig"
+  ],
 };
 
 module.exports = {
