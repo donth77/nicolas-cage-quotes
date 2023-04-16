@@ -2,7 +2,7 @@
 
 ## Production host
 
-[https://nicolas-cage-quotes.herokuapp.com/quotes](https://nicolas-cage-quotes.herokuapp.com/quotes)
+[https://nicolas-cage-quotes.onrender.com/quotes](https://nicolas-cage-quotes.onrender.com/quotes)
 
 The `Access-Control-Allow-Origin` header is set to `*` so that you can make requests from any domain.
 
